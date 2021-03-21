@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100hv;
+    height: 100vh;
+}
+
+.background {
+    background-image: url(https://images.alphacoders.com/108/1080246.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.background-color {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.row {
+    position: absolute;
+    width: 60%;
+    height: 60vh;
+    margin-top: 200px;
+}
+
+.col-60 {
+    width: 100%;
+    padding: 20px;
+}
+
+.col-60 h2 {
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(132, 235, 212);
+    transition: ease-in 0.5s;
+}
+
+.col-60 h2:hover {
+    transform: rotate(360deg);
+}
+
+.col-60 p {
+    font-size: 3.5rem;
+    margin-top: 20px;
+    color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: ease-in 0.5s;
+}
+
+.col-60 p:hover {
+    transform: scale(0.5);
+}
+
+.container .background .background-color .row .col-60 h2 {
+    margin: 0;
+}
+
+.col-60 button {
+    font-size: 2rem;
+    color: rgb(132, 235, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: firebrick;
+    border-radius: 20px;
+    padding: 12px 42px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.col-60 button:hover {
+    background-color: teal;
+    transform: translateX(50PX);
+    color: whitesmoke;
+}
