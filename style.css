@@ -83,4 +83,5 @@ main {
     background-color: teal;
     transform: translateX(50PX);
     color: whitesmoke;
+    transition: ease-in 1s;
 }
